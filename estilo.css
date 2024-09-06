@@ -1,0 +1,152 @@
+*{margin: 10px;}
+body {
+    background-color: black;
+}
+
+.sombrero1
+{
+    background-color: blue;
+    width: 90px; height: 50px;
+    position: relative;
+    top: 30px;  
+    left: 30px;  
+
+}
+.sombrero2
+{
+    background-color: blue;
+    width: 170px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;  /*para pocicion absoluto para cajas hijos*/
+    top: 100px;  /*arriba*/
+    left: 10px; /*izquierda*/
+    right: 100px; /*derecha*/
+    bottom: 200px; /*abajo*/
+}
+.cara
+{
+    background-color:blanchedalmond;
+    width: 120px; height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;  
+    left: 20px;  
+    right: 0px;
+
+}
+.ojo1
+{
+    background-color:aqua;
+    width: 18px; height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;  
+    left: 20px;  
+
+}
+.ojo2
+{
+    background-color:aqua;
+    width: 18px; height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;  
+    left: 60px; 
+
+}
+.nariz
+{
+    background-color:red;
+    width: 10px; height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;  
+    left: 45px; 
+}
+.cuerpo
+{
+    background-color:blanchedalmond;
+    width: 160px; height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;  
+    left: 10px;  
+
+}
+.boton1
+{
+    background-color:blueviolet;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;  
+    left: 60px;  
+
+}
+.boton2
+{
+    background-color:mediumorchid;
+    width: 15px; height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;  
+    left: 60px; 
+
+}
+.boton3
+{
+    background-color:aqua;
+    width: 18px; height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;  
+    left: 60px; 
+
+}
+.cuerpo2
+{
+    background-color:blanchedalmond;
+    width: 180px; height: 130px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;  
+    left: 10px;  
+}
+.botonF
+    {
+        background-color:aqua;
+        width: 18px; height: 18px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;  
+        left: 40px; 
+    }
+
+ .man1
+    {
+        background-color:chocolate;
+        width: 10px; height: 50px;
+        transform: rotate(100deg);
+        position: absolute;
+        top: 20px;  
+        left: -40px; 
+    }
+    .man2
+    {
+        background-color:chocolate;
+        width: 10px; height: 50px;
+        transform: rotate(-100deg);
+        position: absolute;
+        top: 20px;  
+        left: 170px; 
+    }
+.nombre
+{
+    background-color:blanchedalmond;
+     width: 50px; height: 50px;
+     position: absolute;
+        top: 30px;  
+        left: 40px; 
+
+}
